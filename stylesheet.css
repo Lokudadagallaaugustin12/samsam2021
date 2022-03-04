@@ -1,0 +1,122 @@
+html,body{
+    height:100%;
+    width:100%;
+    margin:0;
+}
+.main-div{
+
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    width:100%;
+overflow: scroll;
+}
+
+
+.first-div{
+    justify-content: center;
+    display: flex;
+    border-bottom: 4px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.list-one{
+    display:flex;
+    flex-direction: row;
+    justify-content:  space-around;
+}
+li{
+list-style-type:none;
+text-decoration:none;
+}
+a{
+    color:bisque;
+    text-decoration:none;
+}
+a:hover{
+    color:red;
+}
+li:hover::after{
+border:2px solid brown;
+ border-width:50px ;
+}
+.first-div,.second-div{
+    background-color:blue;
+    flex-basis: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.home-div{
+    background:url(image2.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 450px;
+
+   
+
+    
+    flex-basis: 80%;
+     margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -15px;
+
+
+
+}
+#index-box,
+#about-box,
+#explore-box,
+#programes-box,
+#STUDENT-box,
+#STUFF-box{
+   background-color: black;
+   width: 90px;
+   height: 30px; 
+   align-items:center ;
+   justify-content: center;
+   display: flex;
+}
+.STUFF-div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.STUDENT-div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.programes-div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.explore-div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.about-div{
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+.bottom-div{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: green;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+
+.list-two{
+    color: white;
+}
+h2{
+    color:white;
+}
+
+    
+    
+    
+
+
